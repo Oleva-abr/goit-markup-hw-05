@@ -327,6 +327,22 @@ ul {
 .product-thumb {
   position: relative;
 }
+.product-thumb::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+
+  background: rgba(33, 150, 243, 0.9);
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.product-thumb:hover:before {
+  opacity: 1;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -335,7 +351,8 @@ ul {
   height: 100%;
   display: flex;
   opacity: 0;
-
+  top: 0;
+  left: 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -343,14 +360,7 @@ ul {
   line-height: 1.56;
   letter-spacing: 0.03em;
   padding: 63px 24px;
-
   color: var(--hero-text-color);
-  background: rgba(33, 150, 243, 0.9);
-}
-
-.overlay:hover,
-.overlay:focus {
-  opacity: 1;
 }
 
 .portfolio-list .item {
@@ -361,6 +371,9 @@ ul {
 .portfolio-list-actions {
   display: flex;
   flex-direction: column;
+}
+.overlay:hover {
+  opacity: 1;
 }
 .portfolio-list-actions:hover,
 .portfolio-list-actions:focus {
@@ -522,4 +535,32 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+/* ======Modal window====== */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  width: 528px;
+  height: 581px;
+  left: 536px;
+  top: 221px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }

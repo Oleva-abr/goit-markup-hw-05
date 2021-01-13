@@ -4,7 +4,7 @@
   белый #FFFFFF
   вторичный цвет фона #2F303A
  */
-/* site colors */
+/* ====site colors===== */
 
 .visually-hidden {
 	position: absolute;
@@ -67,7 +67,7 @@ img {
 a {
 	text-decoration: none;
 }
-/* logo */
+/* ====logo====== */
 .logo {
 	font-family: Raleway, sans-serif;
 	color: var(--title-text-color);
@@ -86,7 +86,7 @@ ul {
 	padding: 0;
 	margin: 0;
 }
-/* Titles */
+/* ====Titles===== */
 
 .hero-title {
 	margin-top: 0;
@@ -140,7 +140,7 @@ ul {
 	background: #f5f4fa;
 	padding-top: 94px;
 }
-/* Team list */
+/* =====Team list===== */
 .team-list {
 	display: flex;
 }
@@ -162,7 +162,7 @@ ul {
 	flex-direction: column;
 	align-items: center;
 }
-/* Texts */
+/* =====Texts===== */
 .section {
 	padding-bottom: 94px;
 }
@@ -182,9 +182,10 @@ ul {
 	font-size: 16px;
 	line-height: 1.86;
 	margin-bottom: 0;
+	color: var(--primary-text-color);
 }
 
-/* Address */
+/* =====Address====== */
 
 .address {
 	color: var(--primary-text-color);
@@ -211,7 +212,7 @@ ul {
 	height: 16px;
 }
 
-/*  Main nav */
+/*  ======Main nav===== */
 .main-nav {
 	display: flex;
 	align-items: center;
@@ -219,7 +220,7 @@ ul {
 .portfolio-border {
 	border-bottom: 1px solid #ececec;
 }
-/* site nav */
+/* =====site nav===== */
 
 .site-nav {
 	display: flex;
@@ -245,7 +246,7 @@ ul {
 .site-nav .current {
 	color: var(--accent-color);
 }
-/* Address nav */
+/* ====Address nav===== */
 .address-nav {
 	display: flex;
 	margin-left: auto;
@@ -254,7 +255,7 @@ ul {
 	margin-left: 50px;
 }
 
-/* Button */
+/* =====Button===== */
 
 .button {
 	color: var(--hero-text-color);
@@ -292,7 +293,7 @@ ul {
 
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-/* list main */
+/* =====list main===== */
 .feacher-list {
 	display: flex;
 }
@@ -322,7 +323,7 @@ ul {
 .feacher-list .icon-astronaut::before {
 	background-image: url(../img/feacher-list/astronaut.svg);
 }
-/* Portfolio list */
+/* =====Portfolio list===== */
 .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -371,7 +372,7 @@ ul {
 .portfolio-list .item:nth-last-child(-n + 3) {
 	margin-bottom: 0;
 }
-.item > .card {
+.item .card {
 	padding: 20px 24px;
 
 	border: 1px solid #eeeeee;
@@ -421,7 +422,7 @@ ul {
 .portfolio-button .item:not(:last-child) {
 	margin-right: 8px;
 }
-/* Client logo */
+/* =====Client logo===== */
 .client-logo {
 	display: flex;
 }
@@ -450,7 +451,7 @@ ul {
 .section-logo {
 	padding-top: 94px;
 }
-/* footer */
+/* ====footer==== */
 .footer {
 	background-color: #2f303a;
 	margin-top: 0;
@@ -514,7 +515,7 @@ ul {
 	width: 20px;
 	height: 20px;
 }
-/* Container sizes */
+/* =====Container sizes===== */
 .container {
 	width: 1200px;
 	padding-left: 15px;

@@ -228,6 +228,7 @@ ul {
   padding: 0;
   border: none;
   margin: 0;
+  transition: opacity 250ms var(--timing-function);
 }
 .address:hover,
 .address:focus {
@@ -289,11 +290,7 @@ ul {
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .current {
-  color: var(--accent-color);
-}
+
 /* ====Address nav===== */
 .address-nav {
   display: flex;
@@ -313,6 +310,7 @@ ul {
   border-radius: 4px;
   text-align: center;
   border: none;
+  transition: opacity 250ms var(--timing-function);
 }
 .button.primary {
   font-weight: 700;
@@ -404,6 +402,7 @@ ul {
 }
 .product-thumb:hover:before {
   opacity: 1;
+  transition: opacity 250ms var(--timing-function);
 }
 .overlay {
   position: absolute;
@@ -473,6 +472,7 @@ ul {
   justify-content: center;
   width: 44px;
   height: 44px;
+  transition: opacity 250ms var(--timing-function);
 }
 
 .item-icon {
@@ -520,6 +520,7 @@ ul {
   box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
+  transition: opacity 250ms var(--timing-function);
 }
 
 .client-logo .item-link:hover,
@@ -592,6 +593,7 @@ ul {
   display: flex;
   justify-content: center;
   --color1: #ffffff;
+  transition: opacity 250ms var(--timing-function);
 }
 .footer-icon {
   width: 20px;

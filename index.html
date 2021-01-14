@@ -63,7 +63,7 @@
             <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="button primary">Заказать услугу</button>
+          <button type="button" class="button primary" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <section class="section container section-logo">
@@ -364,8 +364,11 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden">
-      <div class="modal"></div>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close>Закрыть</button>
+      </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

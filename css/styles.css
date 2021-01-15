@@ -636,4 +636,7 @@ ul {
   height: 581px;
 }
 .modal-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

@@ -530,7 +530,8 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
-.client-logo .logo-icons:hover,
+.client-logo .item-link .logo-icons:hover,
+.client-logo .item-link:focus .logo-icons,
 .client-logo .item-link:hover,
 .client-logo .item-link:focus {
   /* --color1: #2196f3; */
